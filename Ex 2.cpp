@@ -11,13 +11,13 @@ int main() {
     printf("Informe o raio do cilindro: ");
     scanf("%f", &raio);
 
-    // Calcula a ·rea do cilindro
+    // Calcula a √°rea do cilindro
     area = M_PI * pow(raio, 2) + 2 * M_PI * raio * altura;
 
-    // Calcula a quantidade de litros de tinta necess·rios
+    // Calcula a quantidade de litros de tinta necess√°rios
     litros = area / 3;
 
-    // Calcula a quantidade de latas de tinta necess·rias
+    // Calcula a quantidade de latas de tinta necess√°rias
     latas = ceil(litros / 5);
 
     // Calcula o custo das latas de tinta
